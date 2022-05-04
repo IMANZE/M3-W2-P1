@@ -1,0 +1,45 @@
+.roll-bar {
+  display: flex;
+  color: saddlebrown;
+  align-items: center;
+  padding-left: 30px;
+  width: 50vw;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.nav-bar {
+  display: flex;
+  gap: 15px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 150px;
+  flex-wrap: wrap;
+}
+.nav-image {
+  height: 40px;
+  width: 40px;
+  padding-right: 15px;
+  padding-left: 5px;
+}
+
+.small-nav {
+  border-radius: 20px;
+  background-color: rgb(228, 228, 97);
+  padding: 4px;
+  text-align: center;
+  flex-grow: 1;
+}
+.bigger-nav{
+    display: flex; 
+ 
+}
+
+.big-nav {
+  display: flex;
+  border-radius: 40px;
+  background-color: rgb(228, 228, 97);
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  align-items: center;
+}
