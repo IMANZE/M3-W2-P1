@@ -1,67 +1,60 @@
-.main-container{
-    display: flex;
-    flex-direction: column;
-   text-align: center;
-    border-radius: 25%;
-    height: 350px;
-    width: 250px;
-   margin-left: 20px;
-    overflow: hidden;
-  
+.main-container {
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  
+  border-radius: 25%;
+  height: 350px;
+  width: 250px;
+  margin-left: 20px;
+  overflow: hidden;
+  text-align: center;
   background-color: rgb(239, 239, 218);
   flex-shrink: 0;
   flex-grow: 1;
 }
-.pic-container{
-    display: flex;
-    object-fit: cover;
-    height: 230px;
+.pic-container {
+  display: flex;
+  object-fit: cover;
+  height: 230px;
 }
-.card-image{
- 
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.card-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
-.bottom{
-    display: flex ;
+.bottom {
+  display: flex;
   justify-content: center;
   gap: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
-  
 }
-.write-ups{
-    display: flex;
-    flex-direction: column;
+.write-ups {
+  display: flex;
+  flex-direction: column;
 }
-.price{
-    display: flex;
-    justify-content: flex-end;
-    line-height: 40px;
-    color: saddlebrown;
-    font-size: larger
+.price {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 40px;
+  color: saddlebrown;
+  font-size: larger;
 }
-.bio{
-    font-weight: bold;
-    font-size: larger;
-    color: saddlebrown;
+.bio {
+  font-weight: bold;
+  font-size: larger;
+  color: saddlebrown;
 }
-.light{
-    color: saddlebrown;  
-    align-content: center;
+.light {
+  color: saddlebrown;
+  align-content: center;
+}
+.to-cart {
+  display: flex;
 
-}
-.to-cart{
-    display: flex;
-   
-   border-radius: 9px;
+  border-radius: 9px;
   background-color: rgb(228, 228, 97);
   padding: 4px;
- align-self: center;
- 
- 
+  align-self: center;
 }
