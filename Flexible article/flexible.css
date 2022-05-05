@@ -1,0 +1,25 @@
+.main-container{
+    display: flex;
+    background-color: antiquewhite;
+    color: saddlebrown;  
+}
+@media screen and (max-width: 600px) {
+    
+    .main-container{
+        flex-direction: column-reverse;
+    }
+}
+.image-container{
+    padding: 20px;
+   
+}
+.write-up{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    
+}
+.delicious{
+    font-size: larger;
+    font-weight: bolder;
+}
